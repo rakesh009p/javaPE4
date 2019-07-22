@@ -19,6 +19,7 @@ public class SortWordsTest {
     public void tearDown() throws Exception {
         sortWords=null;
     }
+    //test case for sorting words in a paragraph
 
     @Test
     public void givenStringShouldReturnSortedString() {
@@ -26,6 +27,7 @@ public class SortWordsTest {
         String []expected="am,and, andhra, from,i,is,my,name,pradesh,rakesh".split("[\\s,]+");
         assertArrayEquals(expected,actualResult);
     }
+    //test case for null exception
     @Test
     public void givenAStringShouldReturnSortedString() {
         String []actual=sortWords.sortWords(null);

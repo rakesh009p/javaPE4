@@ -18,7 +18,7 @@ public class TransposeStringTest {
     public void tearDown() throws Exception {
         transposeString=null;
     }
-
+//test case for reversing each word  in string
     @Test
     public void givenStringShouldReturnStringWithReveseWord() {
         String actualResult=transposeString.reverseWord("a quick brown fox jumps over the lazy dog");

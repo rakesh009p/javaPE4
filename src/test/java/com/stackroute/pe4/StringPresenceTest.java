@@ -18,6 +18,7 @@ public class StringPresenceTest {
     public void tearDown() throws Exception {
         stringPresence=null;
     }
+    //test case for presence of a word in a string
 
     @Test
     public void givenStringShouldCheckPresenceAndReturnString() {
@@ -25,6 +26,7 @@ public class StringPresenceTest {
         assertEquals("Is Harry Here?true",actualResult);
 
     }
+    //false test case
     @Test
     public void givenAStringShouldCheckPresenceAndReturnString() {
         String actualResult = stringPresence.stringPresense("This is Henry.");

@@ -17,6 +17,7 @@ public class StringMatcherTest {
     public void tearDown() throws Exception {
         stringMatcher=null;
     }
+    //test case for matching the char in string
 
     @Test
     public void matching() {
@@ -26,6 +27,7 @@ public class StringMatcherTest {
         String actual=stringMatcher.matching("She sells seashells by the seashore","se");
         assertEquals(expected,actual);
     }
+    //not equals case
     @Test
     public void matchingNotNull() {
         String expected="Found at: 4 - 6\n" +

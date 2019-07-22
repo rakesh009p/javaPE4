@@ -18,6 +18,7 @@ public class OccuranceOfCharTest {
     public void tearDown() throws Exception {
         occuranceOfChar=null;
     }
+    //test case for character occurance  in a strring
 
     @Test
     public void givenStringShouldReturnCharCount() {

@@ -17,6 +17,7 @@ public class CharacterReplaceTest {
         public void tearDown() throws Exception {
             characterReplace=null;
         }
+        //test case for replacing character
         @Test
         public void givenStringShouldReturnStringWithReplacedCharacters(){
             String actualResult=characterReplace.characterReplace("daily dry");
