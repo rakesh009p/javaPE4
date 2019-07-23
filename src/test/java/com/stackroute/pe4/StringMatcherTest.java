@@ -20,7 +20,7 @@ public class StringMatcherTest {
     //test case for matching the char in string
 
     @Test
-    public void matching() {
+    public void givenStringShouldCheckAndReturnString() {
         String expected="Found at: 4 - 6\n" +
                 "Found at: 10 - 12\n" +
                 "Found at: 27 - 29";
@@ -29,7 +29,7 @@ public class StringMatcherTest {
     }
     //not equals case
     @Test
-    public void matchingNotNull() {
+    public void givenStringShouldCheckForNullAndReturnError() {
         String expected="Found at: 4 - 6\n" +
                 "Found at: 10 - 12\n" +
                 "Found at: 27 - 29";
