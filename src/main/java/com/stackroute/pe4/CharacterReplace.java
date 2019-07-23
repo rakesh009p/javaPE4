@@ -5,7 +5,6 @@ package com.stackroute.pe4;
 
 public class CharacterReplace {
     public String  characterReplace(String string) {
-        string = "daily dry";
         //replacing d with f//
         String string1 = string.replace("d", "f");
         //replacing l with t//

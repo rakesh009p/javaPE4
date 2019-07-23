@@ -21,8 +21,14 @@ public class CharacterReplaceTest {
         @Test
         public void givenStringShouldReturnStringWithReplacedCharacters(){
             String actualResult=characterReplace.characterReplace("daily dry");
-            assertEquals("",actualResult);
+            assertEquals("faity fry",actualResult);
         }
+
+        @Test
+    public void givenAStringShouldReturnStringWithReplacedCharacters(){
+        String actualResult=characterReplace.characterReplace("den dry");
+        assertEquals("fen fry",actualResult);
+    }
     }
 
 

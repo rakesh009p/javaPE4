@@ -24,7 +24,7 @@ public class SortWordsTest {
     @Test
     public void givenStringShouldReturnSortedString() {
         String []actualResult= sortWords.sortWords("my name is rakesh and i am from andhra pradesh");
-        String []expected="am,and, andhra, from,i,is,my,name,pradesh,rakesh".split("[\\s,]+");
+        String []expected="am,and,andhra, from,i,is,my,name,pradesh,rakesh".split("[\\s,]+");
         assertArrayEquals(expected,actualResult);
     }
     //test case for null exception

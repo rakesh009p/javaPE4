@@ -25,4 +25,10 @@ public class TransposeStringTest {
         assertEquals("a kciuq nworb xof spmuj revo eht yzal god",actualResult);
 
     }
+    @Test
+    public void givenStringsShouldReturnStringWithReveseWord() {
+        String actualResult=transposeString.reverseWord("my name is rakesh");
+        assertEquals("ym eman si hsekar",actualResult);
+
+    }
 }

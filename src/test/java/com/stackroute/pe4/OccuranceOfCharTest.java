@@ -25,4 +25,9 @@ public class OccuranceOfCharTest {
         int actualResult=occuranceOfChar.charOccurrance("Java is java again java again");
         assertEquals(10,actualResult);
     }
+    @Test
+    public void givenAStringShouldReturnCharCount() {
+        int actualResult=occuranceOfChar.charOccurrance("Java is java again java again java");
+        assertEquals(12,actualResult);
+    }
 }

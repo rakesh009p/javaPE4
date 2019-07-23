@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class StringPresenceTest {
-    StringPresence stringPresence;
+       StringPresence stringPresence;
 
     @Before
     public void setUp() throws Exception {
@@ -24,6 +24,7 @@ public class StringPresenceTest {
     public void givenStringShouldCheckPresenceAndReturnString() {
         String actualResult = stringPresence.stringPresense("This is Harry.");
         assertEquals("Is Harry Here?true",actualResult);
+
 
     }
     //false test case
